@@ -3,6 +3,9 @@
 tutorial reference:
 https://www.youtube.com/watch?v=e_SPuvO_l1w
 
+Git LFS .gitattributes and .gitignore:
+https://dev.epicgames.com/community/snippets/rVBG/unreal-engine-git-lfs-gitattributes-and-gitignore
+
 ### Villager_BlendSpace1D
 #### BlendSpace
 - is an animation asset that will enable us to transition between different animations depending on the players speed
