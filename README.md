@@ -36,3 +36,9 @@ Event BlueprintUpdateAnimation
 
 ### Additive Animation: 
 plays an animation on top of another and merges them for a smooth transition
+
+
+#### EnemyAI
+Created BP_EnemyAI under Content
+- In the CP Viewport under Mesh selected skin (villager)
+    - to center skin, under Transform in the last fields set Location -89 and Scale -90
