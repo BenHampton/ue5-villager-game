@@ -45,3 +45,16 @@ Created BP_EnemyAI under Content
 
     -Attack
         - window -> FAB
+
+- For single use animations, we can use Right Click the attack animation go to Create -> Create AnimMontage
+    - then in the BP_EnemyAI with Ai Move To set up we can hook up the On Success  to the Play Montage to execute the AnimMontage
+    - finally in the ABP_Willager we need to add a Default Slot between Locomotion and the Output Pose
+        - this is bc AnimMontage are plays on a default slot
+
+- Adding Knockback
+    - Adding Sphere Trace By Channel which is a sphere that will go from one point to another
+
+## Components 
+- Branch - If statement
+- Get Actor Location
+- Get Actor Rotation and to get the location that its looking Get Forward Vector
